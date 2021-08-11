@@ -7,7 +7,7 @@ namespace ShapeCalculator.Tests
     public class ShapeCalculatorTests
     {
         /// <summary>
-        /// Тест негативного радиуса у круга
+        /// РўРµСЃС‚ РЅРµРіР°С‚РёРІРЅРѕРіРѕ СЂР°РґРёСѓСЃР° Сѓ РєСЂСѓРіР°
         /// </summary>
         [Fact]
         public void CircleNegativeRadius()
@@ -16,7 +16,7 @@ namespace ShapeCalculator.Tests
         }
 
         /// <summary>
-        /// Тест правильности рассчета площади круга 
+        /// РўРµСЃС‚ РїСЂР°РІРёР»СЊРЅРѕСЃС‚Рё СЂР°СЃСЃС‡РµС‚Р° РїР»РѕС‰Р°РґРё РєСЂСѓРіР° 
         /// </summary>
         [Fact]
         public void CircleGetArea()
@@ -32,7 +32,7 @@ namespace ShapeCalculator.Tests
         }
 
         /// <summary>
-        /// Тест отрицательных сторон треугольника
+        /// РўРµСЃС‚ РѕС‚СЂРёС†Р°С‚РµР»СЊРЅС‹С… СЃС‚РѕСЂРѕРЅ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
         /// </summary>
         [Fact]
         public void TriangleNegativeSide()
@@ -43,7 +43,7 @@ namespace ShapeCalculator.Tests
         }
 
         /// <summary>
-        /// Тест случая, если большая сторона треугольника больше суммы двух других сторон
+        /// РўРµСЃС‚ СЃР»СѓС‡Р°СЏ, РµСЃР»Рё Р±РѕР»СЊС€Р°СЏ СЃС‚РѕСЂРѕРЅР° С‚СЂРµСѓРіРѕР»СЊРЅРёРєР° Р±РѕР»СЊС€Рµ СЃСѓРјРјС‹ РґРІСѓС… РґСЂСѓРіРёС… СЃС‚РѕСЂРѕРЅ
         /// </summary>
         [Fact]
         public void LargerTriangleSideGreater()
@@ -52,7 +52,7 @@ namespace ShapeCalculator.Tests
         }
 
         /// <summary>
-        /// Тест правильности рассчета площади треугольника
+        /// РўРµСЃС‚ РїСЂР°РІРёР»СЊРЅРѕСЃС‚Рё СЂР°СЃСЃС‡РµС‚Р° РїР»РѕС‰Р°РґРё С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
         /// </summary>
         [Fact]
         public void TriangleGetArea()
@@ -68,7 +68,7 @@ namespace ShapeCalculator.Tests
         }
 
         /// <summary>
-        /// Тест прямоугольного треугольника
+        /// РўРµСЃС‚ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРѕРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
         /// </summary>
         [Fact]
         public void RightTriangle()
@@ -84,7 +84,7 @@ namespace ShapeCalculator.Tests
         }
 
         /// <summary>
-        /// Тест непрямоугольного треугольника
+        /// РўРµСЃС‚ РЅРµРїСЂСЏРјРѕСѓРіРѕР»СЊРЅРѕРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
         /// </summary>
         [Fact]
         public void NotRightTriangle()
